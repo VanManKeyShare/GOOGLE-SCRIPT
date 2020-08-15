@@ -77,4 +77,3 @@ function VMK_CHECK_IN_ARRAY(ARRAY, DATA){
 	for(var i = 0; i < ARRAY.length; i++){if(ARRAY[i].toString().toLowerCase() == DATA.toString().toLowerCase()){return true;}}
 	return false;
 }
-
